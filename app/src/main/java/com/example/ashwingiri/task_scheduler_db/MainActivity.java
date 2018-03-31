@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
                                     public void onClick(View view) {
                                         EditText etTask = d.findViewById(R.id.etTask);
                                         d.cancel();
-                                        if (!d.equals("")) {
+                                        if (!etTask.getText().toString().equals("")) {
                                             myDbHelper.insertTodo(new Todo(etTask.getText().toString(), false));
                                             refresh();
                                             etTask.setText("");
