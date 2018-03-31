@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginBottom="15dp"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/btYesRemove"
+            android:layout_width="112dp"
+            android:layout_height="33dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="YES"
+            android:textAppearance="@style/AppTheme"
+            android:textStyle="bold"
+            android:background="#7CF"
+            android:textColor="#353853"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btNoRemove"
+            android:layout_width="112dp"
+            android:layout_height="34dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:textAppearance="@style/AppTheme"
+            android:textStyle="bold"
+            android:background="#7CF"
+            android:text="NO"
+            android:textColor="#353853"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+</FrameLayout>

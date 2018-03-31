@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:descendantFocusability="blocksDescendants">
+
+    <TextView
+        android:id="@+id/tvTask"
+        android:layout_width="237dp"
+        android:paddingLeft="7dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingTop="25dp"
+        android:text="Hello"
+        android:textSize="25sp" />
+
+    <CheckBox
+        android:id="@+id/cbToDo"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:paddingRight="8dp"
+        android:gravity="center"
+        android:scaleX="1.5"
+        android:focusable="false"
+        android:onClick="Check_box"
+        android:focusableInTouchMode="false"
+        android:scaleY="1.3" />
+
+    <ImageButton
+        android:id="@+id/btDel"
+        android:layout_width="57dp"
+        android:layout_height="62dp"
+        android:gravity="center"
+        android:onClick="onRemove"
+        android:layout_marginTop="16dp"
+        android:scaleType="fitXY"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:src="@drawable/images" />
+
+</LinearLayout>
